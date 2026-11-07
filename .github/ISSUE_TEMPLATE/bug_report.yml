@@ -1,0 +1,52 @@
+name: Bug report
+description: Something in Vesana doesn't work as expected
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Vesana version
+      description: Shown under Admin → System, e.g. v1.909
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Server / web interface
+        - Agent (Windows)
+        - Agent (Linux)
+        - Collector
+        - Active collector
+        - Installer / updates
+        - AI / MCP
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to …
+        2. Click …
+        3. See …
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Relevant log lines or the diagnostic log. Remove passwords, tokens and IPs you don't want public.
+      render: shell
+  - type: input
+    id: env
+    attributes:
+      label: Environment
+      placeholder: Debian 13 VM, 4 GB RAM, Proxmox
