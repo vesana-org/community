@@ -6,7 +6,7 @@ body:
     id: version
     attributes:
       label: Vesana version
-      description: Shown under Admin → System, e.g. v1.909
+      description: Shown under Admin → Updates, e.g. v1.909
     validations:
       required: true
   - type: dropdown
