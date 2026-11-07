@@ -14,7 +14,7 @@ Please include:
 
 ## What to expect
 
-- Acknowledgement within **3 days**
+- Acknowledgement within **24 hours**
 - An assessment and a planned fix timeline after that
 - Credit in the release notes, if you want it
 
