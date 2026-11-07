@@ -5,7 +5,7 @@
 Please do **not** report security issues in public issues or discussions.
 
 Use **[Report a vulnerability](../../security/advisories/new)** in the Security tab of this repository. Only the maintainer can see it.
-Alternatively, email hello@vesana.org.
+Alternatively, email security@vesana.org.
 
 Please include:
 - affected component (server, agent, collector, installer)
